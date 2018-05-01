@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "infection/infection": "^0.8.1",
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trinet\\DockerInfection\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TrinetTest\\DockerInfection\\": "tests"
+        }
+    }
+}
